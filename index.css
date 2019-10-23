@@ -51,7 +51,9 @@
     width: 900px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    flex-direction: row-reverse;  /* <--- Really freaking cool! */
+    align-items: center;
 }
 
 .photo-grid-item {
